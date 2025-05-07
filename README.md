@@ -32,14 +32,6 @@
 
 ---
 
-## 📱 Mobile Projects (FlutterFlow)
-
-🚧 *Work in progress…*
-
-> Want to showcase your mobile app prototypes or FlutterFlow projects here?  
-> You can add screenshots, links, or badges to your published apps.
-
----
 
 ## 📊 GitHub Stats
 
