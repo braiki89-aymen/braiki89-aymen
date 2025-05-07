@@ -1,5 +1,4 @@
 
-
 <h1 align="center">👋 Hi, I'm Aymen!</h1>
 
 <p align="center">
@@ -28,10 +27,19 @@
 ![Java](https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=java&logoColor=white)
 ![Spring Boot](https://img.shields.io/badge/Spring%20Boot-6DB33F?style=for-the-badge&logo=spring-boot&logoColor=white)
 ![Angular](https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
+![.NET](https://img.shields.io/badge/.NET-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)
 
 ---
 
+## 📱 Mobile Projects (FlutterFlow)
 
+🚧 *Work in progress…*
+
+> Want to showcase your mobile app prototypes or FlutterFlow projects here?  
+> You can add screenshots, links, or badges to your published apps.
+
+---
 
 ## 📊 GitHub Stats
 
