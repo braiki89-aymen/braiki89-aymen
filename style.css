@@ -1979,3 +1979,26 @@ textarea.form-input::-webkit-resizer { display: none; }
   object-fit: cover;
 }
 
+.resume-download {
+  text-align: center;
+  margin: 40px 0;
+}
+
+.resume-button-box {
+  margin-top: 20px;
+}
+
+.resume-button {
+  display: inline-block;
+  padding: 12px 24px;
+  background-color: #ec710c;
+  color: white;
+  font-weight: bold;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.resume-button:hover {
+  background-color: #ec710c;
+}
