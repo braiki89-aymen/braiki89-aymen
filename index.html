@@ -386,12 +386,20 @@
           - clients
         -->
         <section class="resume-download">
-          <h3 class="h3 resume-title">Download Resume</h3>
-        
           <div class="resume-button-box">
-            <a href="documents/my-resume.pdf" download class="resume-button">Download CV (PDF)</a>
+            <a href="documents/my-resume.pdf" id="downloadBtn" download class="resume-button">
+              <div class="progress-bar"></div>
+              <div class="button-content">
+                  <span class="download-icon">⬇</span>
+                  <span class="button-text">Download CV (PDF)</span>
+              </div>
+          </a>
           </div>
-        </section>
+          
+          <div id="successMessage" class="success-message">
+              ✅ Téléchargement terminé avec succès !
+          </div>
+      </section>
         
 
       </article>
