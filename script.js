@@ -182,45 +182,25 @@ document.getElementById('downloadBtn').addEventListener('click', function(e) {
         }
     }, stepDuration);
 });
-
 function startRealDownload(fileUrl) {
-    // Méthode 1: Fetch + Blob (Force le téléchargement)
-    fetch(fileUrl)
-        .then(response => {
-            if (!response.ok) {
-                throw new Error('Erreur réseau');
-            }
-            return response.blob();
-        })
-        .then(blob => {
-            // Créer un URL temporaire pour le blob
-            const url = window.URL.createObjectURL(blob);
-            const link = document.createElement('a');
-            link.href = url;
-            link.download = 'my-resume.pdf';
-            link.style.display = 'none';
-            
-            document.body.appendChild(link);
-            link.click();
-            document.body.removeChild(link);
-            
-            // Nettoyer l'URL temporaire
-            window.URL.revokeObjectURL(url);
-        })
-        .catch(error => {
-            console.log('Méthode fetch échouée, tentative alternative:', error);
-            
-            // Méthode alternative: iframe invisible
-            const iframe = document.createElement('iframe');
-            iframe.style.display = 'none';
-            iframe.src = fileUrl;
-            document.body.appendChild(iframe);
-            
-            // Supprimer l'iframe après 3 secondes
-            setTimeout(() => {
-                document.body.removeChild(iframe);
-            }, 3000);
-        });
+  fetch(fileUrl)
+    .then(response => {
+      if (!response.ok) throw new Error('Erreur réseau');
+      return response.blob();
+    })
+    .then(blob => {
+      const url = window.URL.createObjectURL(blob);
+      const link = document.createElement('a');
+      link.href = url;
+      link.download = 'my-resume.pdf'; // ou utilise le vrai nom si besoin
+      document.body.appendChild(link);
+      link.click();
+      document.body.removeChild(link);
+      window.URL.revokeObjectURL(url);
+    })
+    .catch(error => {
+      console.error('Échec du téléchargement', error);
+    });
 }
 
 function resetButton() {
