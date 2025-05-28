@@ -15,7 +15,7 @@
 
 - 🎓 I'm a **Computer Science Engineering** student  
 - 💼 Passionate about **Backend development**, **DevOps**, and **Artificial Intelligence**  
-- 🌱 Currently learning: **DEVOPS**, **Kubernetes**, **DOCKER**  
+- 🌱 Currently learning: **DevOps**, **Kubernetes**, **DOCKER**  
 - 🚀 Open to internship and freelance opportunities
 
 ---
