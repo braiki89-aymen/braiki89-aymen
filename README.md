@@ -15,7 +15,7 @@
 
 - 🎓 I'm a **Computer Science Engineering** student  
 - 💼 Passionate about **Backend development**, **DevOps**, and **Artificial Intelligence**  
-- 🌱 Currently learning: **Kubernetes**, **NestJS**, **Terraform**  
+- 🌱 Currently learning: **DEVOPS**, **Kubernetes**, **DOCKER**  
 - 🚀 Open to internship and freelance opportunities
 
 ---
